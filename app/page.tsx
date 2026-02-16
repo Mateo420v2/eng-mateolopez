@@ -28,19 +28,9 @@ export default function Home() {
         <h2 className="text-3xl font-bold mb-12">Projects</h2>
         <div className="grid md:grid-cols-3 gap-8">
           <ProjectCard
-            title="Inventory Simulation"
-            description="Monte Carlo simulation for inventory optimization."
-            tech="Python · Streamlit · MySQL"
-          />
-          <ProjectCard
-            title="Network Topology Lab"
-            description="ISP routing and segmented LAN visibility."
-            tech="Cisco · Networking"
-          />
-          <ProjectCard
-            title="Student Data Analysis"
-            description="SQL analysis of mental health datasets."
-            tech="PostgreSQL · Analytics"
+            title="Data Analysis Associate - Datacamp & Bootcamp"
+            description="We have an analysis about the criminality index in the city of Medellin. We found interesting events that took place and some patterns."
+            tech="Streamlit (Python + Pandas + Matplotlib) · MySQL · Analytics"
           />
         </div>
       </section>
